@@ -35,7 +35,7 @@ function ToDoList() {
     return (
         <div className="container">
             <h1>To Do List</h1>
-            <div>ToDoList</div>
+
             <input type="text" placeholder="ToDo Name" value={activityname} onChange={(e) => {
                 setactivityname(e.target.value);
                 // { console.log(activity) }
